@@ -5,7 +5,7 @@ INPUT SAMPLES:
 
 1:	sentence(ParseTree, [the, old, boy, put, a , big, box, in, the, large, empty, room, after, school], []).
 
-2:	sentence(ParseTree, [the, old, woman, gave, the, poor, man, a, white, envelope, in, the, shed, behind, the, building], []).
+2:	sentence(ParseTree, [the, old, woman, gave, the, poor, young, man, a, white, envelope, in, the, shed, behind, the, building], []).
 
 3:	sentence(ParseTree, [the, pretty, woman, who, worked, with, the, old, man, secretly, gave, me, three, letters], []).
 
