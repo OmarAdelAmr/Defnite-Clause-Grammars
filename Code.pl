@@ -3,7 +3,7 @@
 
 INPUT SAMPLES:
 
-1:	sentence(ParseTree, [the, old, boy, put, a , big, box, in, the, large, empty, room, after, school], []).
+1:	sentence(ParseTree, [the, young, boy, put, a , big, box, in, the, large, empty, room, after, school], []).
 
 2:	sentence(ParseTree, [the, old, woman, gave, the, poor, young, man, a, white, envelope, in, the, shed, behind, the, building], []).
 
@@ -35,7 +35,7 @@ verb_phrase(verb_phrase(V, NounPhrase))                      --> verb(V), noun_p
 verb_phrase(verb_phrase(V, NounPhrase1, NounPhrase2))        --> verb(V), noun_phrase(NounPhrase1), noun_phrase(NounPhrase2).
 verb_phrase(verb_phrase(V, Prep,NounPhrase))                 --> verb(V), prep(Prep), noun_phrase(NounPhrase).
 verb_phrase(verb_phrase(V, Prep,NounPhrase, Adv))            --> verb(V), prep(Prep), noun_phrase(NounPhrase), adv(Adv).
-verb_phrase(verb_phrase(V, Pronoun, Det, N))                 --> verb(V), pronoun(Pronoun), det(Det), noun(N).
+verb_phrase(verb_phrase(V, Pronoun, NounPhrase))             --> verb(V), pronoun(Pronoun), noun_phrase(NounPhrase).
 verb_phrase(verb_phrase(Adv, V, NounPhrase))     	         --> adv(Adv), verb(V), noun_phrase(NounPhrase).
 
 
